@@ -41,7 +41,7 @@ public:
             // since we start with the root already
             // no need to repeat this
             if(!skip){
-              // update three and save the last node
+              
             prev->left=nullptr;
             prev->right=new_node;
             prev=new_node;
